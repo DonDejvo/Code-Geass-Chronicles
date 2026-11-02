@@ -1,0 +1,23 @@
+{
+  "_doc": "title -> character|faction|location|equipment|concept|event|nation (= faction + location)",
+  "Britannian Search and Rescue": "faction",
+  "C.C. Cell Control Drug Counter": "equipment",
+  "Irregular": "concept",
+  "Steiner Konzern": "faction",
+  "Leung Tan": "equipment",
+  "Monarchy of Britannia": "faction",
+  "Nobles": "concept",
+  "Knight (Honorary Title)": "concept",
+  "Britannian Infantry": "faction",
+  "Mesh": "equipment",
+  "Pavlova": "equipment",
+  "Zero Squad": "faction",
+  "Energy Wing System": "equipment",
+  "Sand Panels": "equipment",
+  "Thought Elevator": "equipment",
+  "F.L.E.I.J.A.": "equipment",
+  "Factsphere Sensor": "equipment",
+  "Vehicles": "concept",
+  "Small Arms": "concept",
+  "United States Charter": "concept"
+}

@@ -1,0 +1,26 @@
+{
+  "_doc": "Episodes whose Fandom page has no usable synopsis. Paragraphs are short paraphrases (not copied text) with [[wikilinks]] so link resolution works. Verify against the wiki/official sources.",
+  "Akito": {
+    "3": {
+      "title": "The Brightness Falls (episode)",
+      "air_date": "May 2, 2015",
+      "source": "Paraphrased from the Wikipedia article on Code Geass: Akito the Exiled (the Fandom page has no plot section)",
+      "source_url": "https://en.wikipedia.org/wiki/Code_Geass:_Akito_the_Exiled",
+      "paragraphs": [
+        "The [[W-0]] Unit is refused permission to return to headquarters and is taken in for a time by a group of elderly Romani. [[Akito Hyuga]] and [[Leila Malcal]] bond with them and share what happened to them as children, which explains how they came to be where they are now.",
+        "Elsewhere, [[Julius Kingsley]] is revealed to be a brainwashed, darker version of [[Lelouch vi Britannia]]; he exerts his control while several leaders watch with a mix of awe and revulsion."
+      ]
+    },
+    "4": {
+      "title": "Memories of Hatred (episode)",
+      "air_date": "July 4, 2015",
+      "source": "Paraphrased from the Wikipedia article on Code Geass: Akito the Exiled (the Fandom page has no plot text)",
+      "source_url": "https://en.wikipedia.org/wiki/Code_Geass:_Akito_the_Exiled",
+      "paragraphs": [
+        "While the [[W-0]] Unit is away, [[Leila Malcal]] and the crew left at the base are surrounded by Britannian Knightmares, and a spy among the crew is about to expose himself.",
+        "[[Shin Hyuga Shaing]] leads the enemy assault in the [[Vercingetorix]] after becoming Grand Master of the [[Holy Order of Michael]].",
+        "With no good option, Leila agrees to meet Shin in order to protect her squad. When the talks begin to collapse, [[Akito Hyuga]] returns with an unexpected ally and turns the situation around."
+      ]
+    }
+  }
+}

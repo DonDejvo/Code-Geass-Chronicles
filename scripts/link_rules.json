@@ -1,0 +1,40 @@
+{
+  "_doc": "ignore: link text dropped. map: force a target (a canonical entity title). stub: page not in the entity categories; kind is location|faction|event|concept.",
+  "ignore": [
+    "Viceroy",
+    "Area System",
+    "knight",
+    "a.t.b.",
+    "List of characters",
+    "Japanese",
+    "Elevens"
+  ],
+  "map": {
+    "Area 11": "United States of Japan",
+    "Special Administrative Zone": "Special Administrative Zone of Japan",
+    "Julius Kingsley": "Lelouch vi Britannia"
+  },
+  "stub": {
+    "Saitama Ghetto": {
+      "kind": "location"
+    },
+    "Black Rebellion": {
+      "kind": "event"
+    },
+    "Battle of Narita": {
+      "kind": "event"
+    },
+    "Second Assault on Tokyo Settlement": {
+      "kind": "event"
+    },
+    "Geass": {
+      "kind": "concept"
+    },
+    "Ragnarök": {
+      "kind": "concept"
+    },
+    "Sakuradite": {
+      "kind": "concept"
+    }
+  }
+}

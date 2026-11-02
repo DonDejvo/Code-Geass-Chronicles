@@ -115,9 +115,10 @@ export const TimelineCanvas = forwardRef<CanvasHandle, Props>(function TimelineC
     ctx.stroke();
 
     const color = P.timeline.color;
-    const axisY = h - (P.settings.showEpisodes ? 58 : 36) * s;
+    const below = (P.settings.showEpisodes ? 58 : 36) * s;
     const laneH = 28 * s, chipH = 22 * s, fontPx = 12.5 * s;
-    const maxLanes = Math.max(1, Math.min(P.settings.maxLanes, Math.floor((axisY - 24 * s) / laneH)));
+    const maxLanes = Math.max(1, Math.min(P.settings.maxLanes, Math.floor((h - below - 24 * s) / laneH)));
+    let axisY = h - below; // bottom-anchored until we know how tall the label stack is
     const font = `600 ${fontPx}px ${FONT}`;
     const small = `500 ${10.5 * s}px ${FONT}`;
 
@@ -149,6 +150,13 @@ export const TimelineCanvas = forwardRef<CanvasHandle, Props>(function TimelineC
       plan = planCache.current = { key, world: P.world, events: P.events, plan: p };
     }
     const chips = plan.plan.chips;
+
+    // center the whole stack (chips + axis + dates/episodes) vertically in the free space
+    let topLane = -1;
+    for (const c of chips.values()) if (c.lane > topLane) topLane = c.lane;
+    const above = topLane < 0 ? 12 * s : 16 * s + topLane * laneH + chipH;
+    const slack = h - below - above - 8 * s;
+    if (slack > 0) axisY -= slack / 2;
 
     // episode separators + labels
     if (P.settings.showEpisodes) {
